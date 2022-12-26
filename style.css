@@ -76,9 +76,13 @@
 
 .task-item__icon_default {
     background-image: url(icons/checkbox-off.svg);
+    width: 20px;
+    height: 20px;
 }
 
 .task-item__icon_checked {
     background-image: url(icons/checkbox-on.svg);
+    width: 20px;
+    height: 20px;
 }
 
