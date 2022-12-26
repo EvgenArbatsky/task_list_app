@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60bcae3d-5e9e-4bac-96bb-98e56566907f" name="Changes" comment="Таски добавляются в верстке">
+    <list default="true" id="60bcae3d-5e9e-4bac-96bb-98e56566907f" name="Changes" comment="При добавлении таска добавляется запись в массив">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/engine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672080704459</updated>
-      <workItem from="1672080705716" duration="7551000" />
+      <workItem from="1672080705716" duration="8552000" />
     </task>
     <task id="LOCAL-00001" summary="Первые наброски">
       <created>1672083703082</created>
@@ -81,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672086487282</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="При добавлении таска добавляется запись в массив">
+      <created>1672090646602</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672090646602</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +108,7 @@
     <MESSAGE value="Первые наброски" />
     <MESSAGE value="Базовая разметка готова" />
     <MESSAGE value="Таски добавляются в верстке" />
-    <option name="LAST_COMMIT_MESSAGE" value="Таски добавляются в верстке" />
+    <MESSAGE value="При добавлении таска добавляется запись в массив" />
+    <option name="LAST_COMMIT_MESSAGE" value="При добавлении таска добавляется запись в массив" />
   </component>
 </project>

@@ -32,11 +32,14 @@ let createTaskElem = function () {
     // Создаем нужные элементы на странице
     let newTaskItemElem = document.createElement('button');
         newTaskItemElem.classList.add('task-item');
+        newTaskItemElem.id = taskListObj.length;
     let newTaskItem__icon_defaultElem = document.createElement('img');
         newTaskItem__icon_defaultElem.classList.add('task-item__icon_default');
+        newTaskItem__icon_defaultElem.id = taskListObj.length;
     let newTaskItem__txtElem = document.createElement('p');
         newTaskItem__txtElem.classList.add('task-item__txt');
         newTaskItem__txtElem.classList.add('txt');
+        newTaskItem__txtElem.id = taskListObj.length;
     // Размещаем созданные элементы на странице
     newTaskItemElem.append(newTaskItem__icon_defaultElem);
     newTaskItemElem.append(newTaskItem__txtElem);
@@ -59,5 +62,9 @@ let resetInput = function () {
 }
 
 // Обработчик события: Клик на задачу
+
+taskItemElem.onclick = function () {
+
+}
 
 // Функция:
