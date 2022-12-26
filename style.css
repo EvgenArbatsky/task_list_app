@@ -1,0 +1,74 @@
+/* Text */
+.txt {
+    font-size: 16px;
+    line-height: 140%;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: 400;
+    color: #000000; /* чёрный цвет, белый цвет #ffffff */
+    text-decoration: none;
+    margin: 0;
+}
+
+.txt_title {
+    font-size: 30px;
+    margin: 0;
+}
+
+/* Main components */
+
+.input {
+    border-radius: 5px;
+    border: 1px gray solid;
+    padding: 5px;
+    color: black;
+}
+
+.input::placeholder {
+    color: darkgray;
+}
+
+.button {
+    border-radius: 5px;
+    border: 1px black solid;
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+}
+
+.button:hover {
+    background-color: blue;
+    border-color: blue;
+}
+
+/* Page layout */
+
+.main {
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+}
+
+/* Page components */
+
+.task-list {
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.task-item {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.task-item__icon_default {
+    background-image: url(icons/checkbox-off.svg);
+}
+
+.task-item__icon_checked {
+    background-image: url(icons/checkbox-on.svg);
+}
+
