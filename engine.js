@@ -1,6 +1,6 @@
 // Находим все действующие элементы на странице
 let taskListElem = document.querySelector('.task-list');
-let taskItemElem = document.querySelectorAll('.task-item');
+/*let taskItemElem = document.querySelectorAll('.task-item');*/
 let taskItem__icon_defaultElem = document.querySelectorAll('.task-item__icon_default');
 let taskItem__icon_checkedElem = document.querySelectorAll('.task-item__icon_checked');
 let taskItem__txtElem = document.querySelectorAll('.task-item__txt');
@@ -54,6 +54,7 @@ let createTaskElem = function () {
     console.log(taskListObj)
     // Очищаем инпут
     resetInput();
+    reviewTasks();
 }
 
 // Функция очистки инпута
@@ -61,10 +62,19 @@ let resetInput = function () {
     inputTaskNameElem.value = '';
 }
 
-// Обработчик события: Клик на задачу
-
-taskItemElem.onclick = function () {
-
+// Функция: Перебор элементов taskItemElem
+let reviewTasks = function () {
+    let taskItemElems = document.querySelectorAll('.task-item');
+    let taskItemElem = document.querySelector('.task-item');
+    for (taskItemElem of taskItemElems) {
+        // Обработчик события: Клик на задачу
+        taskItemElem.onclick = function (e) {
+            console.log('Клик на таск ' + e.target.textContent)
+        }
+    }
 }
+reviewTasks()
 
-// Функция:
+
+
+
