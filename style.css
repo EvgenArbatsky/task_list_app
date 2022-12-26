@@ -32,6 +32,10 @@
     color: darkgray;
 }
 
+.error {
+    border-color: red;
+}
+
 .button {
     border-radius: 5px;
     border: 1px black solid;
