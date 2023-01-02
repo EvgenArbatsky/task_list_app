@@ -3,27 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <main class="main">
         <h1 class="txt txt_title">Task list</h1>
-        <div class="task-list">
-            <button class="task-item">
-                <img class="task-item__icon_default">
+        <ul class="tasks-list">
+
+            <li class="task-item">
+                <img class="task-item__icon" src="./icons/checkbox-off.svg" width="20" height="20" alt="checkbox">
                 <p class="task-item__txt txt">Помыть окна</p>
-            </button>
-            <button class="task-item">
-                <img class="task-item__icon_checked">
+            </li>
+
+            <li class="task-item">
+                <img class="task-item__icon" src="./icons/checkbox-off.svg" width="20" height="20" alt="checkbox">
                 <p class="task-item__txt txt txt_checked">Погулять с собакой</p>
-            </button>
-        </div>
-        <div class="form">
+            </li>
+        </ul>
+        <form class="form">
             <input class="input txt" id="input-task-name" type="text" placeholder="New task">
-            <button class="button txt" id="button-add-task">Add task</button>
-        </div>
+            <button type="submit" class="button txt" id="button-add-task">Add task</button>
+        </form>
     </main>
+
     <script src="engine.js"></script>
 </body>
 </html>

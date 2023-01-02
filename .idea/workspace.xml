@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60bcae3d-5e9e-4bac-96bb-98e56566907f" name="Changes" comment="Реализовал добавление ID в элемент при создании таска">
+    <list default="true" id="60bcae3d-5e9e-4bac-96bb-98e56566907f" name="Changes" comment="reset js">
+      <change beforePath="$PROJECT_DIR$/../../learn/to_do_app_learn/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../learn/to_do_app_learn/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learn/to_do_app_learn/.idea/to_do_app_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../learn/to_do_app_learn/.idea/to_do_app_learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learn/to_do_app_learn/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../learn/to_do_app_learn/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/engine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../learn/to_do_app_learn" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,12 +46,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/frontend/projects/tic_tac_game",
+    "last_opened_file_path": "D:/frontend/learn/to_do_app_learn",
     "list.type.of.created.stylesheet": "CSS",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\frontend\projects\task_list_app" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\frontend\projects\task_list_app" />
     </key>
