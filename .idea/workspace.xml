@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60bcae3d-5e9e-4bac-96bb-98e56566907f" name="Changes" comment="Рефакторинг">
+    <list default="true" id="60bcae3d-5e9e-4bac-96bb-98e56566907f" name="Changes" comment="Состояние курсора на элементах">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/engine.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <workItem from="1673552053363" duration="2962000" />
       <workItem from="1673555697215" duration="86000" />
       <workItem from="1673625700261" duration="5755000" />
-      <workItem from="1673651005675" duration="3737000" />
+      <workItem from="1673651005675" duration="4348000" />
     </task>
     <task id="LOCAL-00001" summary="Первые наброски">
       <created>1672083703082</created>
@@ -146,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673702868320</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Состояние курсора на элементах">
+      <created>1673704582831</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673704582831</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +179,7 @@
     <MESSAGE value="Переписываю код заново. Готово добавление задачи в разметку и базу, изменение статуса в разметке и базе." />
     <MESSAGE value="Пустой инпут не отправляется" />
     <MESSAGE value="Рефакторинг" />
-    <option name="LAST_COMMIT_MESSAGE" value="Рефакторинг" />
+    <MESSAGE value="Состояние курсора на элементах" />
+    <option name="LAST_COMMIT_MESSAGE" value="Состояние курсора на элементах" />
   </component>
 </project>

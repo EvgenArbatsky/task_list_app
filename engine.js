@@ -7,6 +7,8 @@ const taskListEl = document.querySelector('.task-list');
 /* Создаем массив с задачами */
 let taskListObj = [];
 
+resetTasks();
+
 /* Добавление задачи */
 formAddTaskEl.addEventListener('submit', addTask); // Обработчик отправленной формы
 function addTask(event) {
@@ -21,6 +23,7 @@ function addTask(event) {
     renderTaskItemEl(taskItemObj); // Отрисовываем таск в HTML
     inputTaskNameEl.value = ''; // Очищаем инпут
     /*inputTaskNameEl.focus(); // Возвращаем фокус на инпут*/
+    resetTasks();
 }
 
 /* Отрисовка таска */
@@ -37,12 +40,11 @@ function renderTaskItemEl(taskItemObj) {
     // Вставляем в разметку
     taskListEl.insertAdjacentHTML('beforeend', taskHTML);
 }
-
-/* Смена статуса задачи */
-taskListEl.onclick = () => { // Триггер: Клик по списку с задачами
-    // Считываем клик по конкретному элементу
+/* Пересчитать пункты задач на странице */
+function resetTasks() {
     let taskItemsEl = document.querySelectorAll('.task-item');
     let taskItemEl = document.querySelector('.task-item');
+    /* Смена статуса задачи */
     for (taskItemEl of taskItemsEl) {
         taskItemEl.onclick = function () {
             // Находим в массиве с задачами объект, связанный по ID, и меняем его статус
@@ -59,13 +61,14 @@ taskListEl.onclick = () => { // Триггер: Клик по списку с з
             if (taskItemObj.done === true) {
                 taskItem__iconEl.src = "./icons/checkbox-on.svg";
                 taskItem__txtEl.classList.add('txt_checked');
-                console.log('test1');
             } else {
                 taskItem__iconEl.src = "./icons/checkbox-off.svg";
                 taskItem__txtEl.classList.remove('txt_checked');
-                console.log('test2');
             }
         }
     }
 }
+
+
+
 
