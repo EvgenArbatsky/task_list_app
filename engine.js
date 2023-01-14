@@ -25,23 +25,27 @@ function addTask(event) {
 
 /* Отрисовка таска */
 function renderTaskItemEl(taskItemObj) {
+    // Определяем стиль внутренних элементов в зависимости от статуса объекта
     const imgState = taskItemObj.done ? './icons/checkbox-on.svg' : './icons/checkbox-off.svg';
     const pState = taskItemObj.done ? '.txt_checked' : '';
+    // Рисуем HTML
     const taskHTML =
         `<li id="${taskItemObj.id}" class="task-item">
             <img class="task-item__icon" src="${imgState}" width="20" height="20" alt="checkbox">
             <p class="task-item__txt txt ${pState}">${taskItemObj.text}</p>
         </li>`;
+    // Вставляем в разметку
     taskListEl.insertAdjacentHTML('beforeend', taskHTML);
 }
 
-
 /* Смена статуса задачи */
-taskListEl.onclick = () => {
+taskListEl.onclick = () => { // Триггер: Клик по списку с задачами
+    // Считываем клик по конкретному элементу
     let taskItemsEl = document.querySelectorAll('.task-item');
     let taskItemEl = document.querySelector('.task-item');
     for (taskItemEl of taskItemsEl) {
         taskItemEl.onclick = function () {
+            // Находим в массиве с задачами объект, связанный по ID, и меняем его статус
             const taskId = Number(this.id);
             const taskItemObj = taskListObj.find(function (taskItemObj) {
                 if (taskItemObj.id === taskId) {
@@ -49,6 +53,7 @@ taskListEl.onclick = () => {
                 }
             })
             taskItemObj.done = !taskItemObj.done;
+            // Меняем стиль внутренних элементов в зависимости от статуса объекта
             const taskItem__iconEl = this.querySelector('.task-item__icon');
             const taskItem__txtEl = this.querySelector('.task-item__txt');
             if (taskItemObj.done === true) {
@@ -60,7 +65,6 @@ taskListEl.onclick = () => {
                 taskItem__txtEl.classList.remove('txt_checked');
                 console.log('test2');
             }
-            console.log(this.id + taskListObj);
         }
     }
 }
