@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60bcae3d-5e9e-4bac-96bb-98e56566907f" name="Changes" comment="Переписываю код. Сделано добавление задачи в разметку и массив">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/engine.js" afterDir="false" />
+    <list default="true" id="60bcae3d-5e9e-4bac-96bb-98e56566907f" name="Changes" comment="Переписываю код заново. Готово добавление задачи в разметку и базу, изменение статуса в разметке и базе.">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,7 @@
       <workItem from="1673552053363" duration="2962000" />
       <workItem from="1673555697215" duration="86000" />
       <workItem from="1673625700261" duration="5755000" />
-      <workItem from="1673651005675" duration="1575000" />
+      <workItem from="1673651005675" duration="1882000" />
     </task>
     <task id="LOCAL-00001" summary="Первые наброски">
       <created>1672083703082</created>
@@ -126,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672683255453</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Переписываю код заново. Готово добавление задачи в разметку и базу, изменение статуса в разметке и базе.">
+      <created>1673702305621</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673702305621</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +154,7 @@
     <MESSAGE value="При добавлении таска добавляется запись в массив" />
     <MESSAGE value="Реализовал добавление ID в элемент при создании таска" />
     <MESSAGE value="Переписываю код. Сделано добавление задачи в разметку и массив" />
-    <option name="LAST_COMMIT_MESSAGE" value="Переписываю код. Сделано добавление задачи в разметку и массив" />
+    <MESSAGE value="Переписываю код заново. Готово добавление задачи в разметку и базу, изменение статуса в разметке и базе." />
+    <option name="LAST_COMMIT_MESSAGE" value="Переписываю код заново. Готово добавление задачи в разметку и базу, изменение статуса в разметке и базе." />
   </component>
 </project>
