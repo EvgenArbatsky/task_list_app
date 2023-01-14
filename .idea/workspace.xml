@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60bcae3d-5e9e-4bac-96bb-98e56566907f" name="Changes" comment="reset js">
-      <change beforePath="$PROJECT_DIR$/../../learn/to_do_app_learn/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../learn/to_do_app_learn/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learn/to_do_app_learn/.idea/to_do_app_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../learn/to_do_app_learn/.idea/to_do_app_learn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learn/to_do_app_learn/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../learn/to_do_app_learn/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="60bcae3d-5e9e-4bac-96bb-98e56566907f" name="Changes" comment="Переписываю код. Сделано добавление задачи в разметку и массив">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/engine.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/normalize.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../learn/to_do_app_learn" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,17 +35,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/frontend/learn/to_do_app_learn",
-    "list.type.of.created.stylesheet": "CSS",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/frontend/projects/task_list_app&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\frontend\projects\task_list_app" />
@@ -68,6 +64,25 @@
       <option name="presentableId" value="Default" />
       <updated>1672080704459</updated>
       <workItem from="1672080705716" duration="10170000" />
+      <workItem from="1672919462615" duration="3468000" />
+      <workItem from="1672935837735" duration="561000" />
+      <workItem from="1673122313927" duration="1548000" />
+      <workItem from="1673123888158" duration="223000" />
+      <workItem from="1673126293507" duration="410000" />
+      <workItem from="1673126716172" duration="934000" />
+      <workItem from="1673181423825" duration="78000" />
+      <workItem from="1673181513432" duration="13000" />
+      <workItem from="1673181557632" duration="13000" />
+      <workItem from="1673193400576" duration="17000" />
+      <workItem from="1673197663645" duration="14000" />
+      <workItem from="1673202480392" duration="128000" />
+      <workItem from="1673359655125" duration="122000" />
+      <workItem from="1673359789427" duration="155000" />
+      <workItem from="1673359987499" duration="138000" />
+      <workItem from="1673552053363" duration="2962000" />
+      <workItem from="1673555697215" duration="86000" />
+      <workItem from="1673625700261" duration="5755000" />
+      <workItem from="1673651005675" duration="1575000" />
     </task>
     <task id="LOCAL-00001" summary="Первые наброски">
       <created>1672083703082</created>
@@ -104,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672091427746</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Переписываю код. Сделано добавление задачи в разметку и массив">
+      <created>1672683255453</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672683255453</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +149,7 @@
     <MESSAGE value="Таски добавляются в верстке" />
     <MESSAGE value="При добавлении таска добавляется запись в массив" />
     <MESSAGE value="Реализовал добавление ID в элемент при создании таска" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализовал добавление ID в элемент при создании таска" />
+    <MESSAGE value="Переписываю код. Сделано добавление задачи в разметку и массив" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переписываю код. Сделано добавление задачи в разметку и массив" />
   </component>
 </project>
