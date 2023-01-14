@@ -42,11 +42,25 @@
     padding: 5px 15px;
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 .button:hover {
     background-color: blue;
     border-color: blue;
+}
+
+.text-button {
+    display: flex;
+    border: 0;
+    background-color: transparent;
+    width: auto;
+    padding: 0;
+    cursor: pointer;
+}
+
+.text-button:hover {
+    color: blue;
 }
 
 /* Page layout */
@@ -76,6 +90,11 @@
     padding: 0;
     background: 0;
     border: 0;
+    cursor: pointer;
+}
+
+.task-item__txt {
+    user-select: none;
 }
 
 
