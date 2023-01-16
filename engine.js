@@ -9,6 +9,7 @@ const buttonDeleteDoneTasksEl = document.querySelector('#button-delete-done-task
 let taskListObj = [];
 
 resetTasks();
+checkDoneTasks();
 
 /* Добавление задачи */
 formAddTaskEl.addEventListener('submit', addTask); // Обработчик отправленной формы
@@ -67,6 +68,7 @@ function resetTasks() {
                 taskItem__iconEl.src = "./icons/checkbox-off.svg";
                 taskItem__txtEl.classList.remove('txt_checked');
             }
+            checkDoneTasks();
         }
     }
 }
@@ -85,8 +87,26 @@ buttonDeleteDoneTasksEl.onclick = () => {
     }
     taskListObj.forEach(function (taskItemObj){
         renderTaskItemEl(taskItemObj)
-    })
+    });
+    checkDoneTasks();
 }
+
+/* Кнопка удаления выполненных задач доступна только, если они есть */
+function checkDoneTasks() {
+    let taskListObj_done = null;
+    taskListObj.find (function (taskItemObj){
+        if (taskItemObj.done === true) {
+            taskListObj_done = true;
+        }
+    });
+    console.log('Сработала функция checkDoneTasks')
+    if (taskListObj_done === true) {
+        buttonDeleteDoneTasksEl.classList.remove('hidden')
+    } else {
+        buttonDeleteDoneTasksEl.classList.add('hidden')
+    }
+}
+
 
 
 
