@@ -3,13 +3,15 @@
 const formAddTaskEl = document.querySelector('.form-add-task');
 const inputTaskNameEl = document.querySelector('#input-task-name');
 const taskListEl = document.querySelector('.task-list');
-const buttonDeleteDoneTasksEl = document.querySelector('#button-delete-done-tasks')
+const buttonDeleteDoneTasksEl = document.querySelector('#button-delete-done-tasks');
+const emptyListPlugEl = document.querySelector ('#empty-list-plug');
 
 /* Создаем массив с задачами */
 let taskListObj = [];
 
 resetTasks();
 checkDoneTasks();
+checkTasksThereis();
 
 /* Добавление задачи */
 formAddTaskEl.addEventListener('submit', addTask); // Обработчик отправленной формы
@@ -26,6 +28,7 @@ function addTask(event) {
     inputTaskNameEl.value = ''; // Очищаем инпут
     /*inputTaskNameEl.focus(); // Возвращаем фокус на инпут*/
     resetTasks();
+    checkTasksThereis();
 }
 
 /* Отрисовка таска */
@@ -89,6 +92,7 @@ buttonDeleteDoneTasksEl.onclick = () => {
         renderTaskItemEl(taskItemObj)
     });
     checkDoneTasks();
+    checkTasksThereis();
 }
 
 /* Кнопка удаления выполненных задач доступна только, если они есть */
@@ -99,11 +103,19 @@ function checkDoneTasks() {
             taskListObj_done = true;
         }
     });
-    console.log('Сработала функция checkDoneTasks')
     if (taskListObj_done === true) {
         buttonDeleteDoneTasksEl.classList.remove('hidden')
     } else {
         buttonDeleteDoneTasksEl.classList.add('hidden')
+    }
+}
+
+/* Появление и скрытие заглушки при пустом листе задач */
+function checkTasksThereis() {
+    if (taskListObj.length > 0) {
+        emptyListPlugEl.classList.add('hidden')
+    } else {
+        emptyListPlugEl.classList.remove('hidden')
     }
 }
 

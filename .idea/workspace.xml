@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60bcae3d-5e9e-4bac-96bb-98e56566907f" name="Changes" comment="Реализовано удаление выполненных задач">
+    <list default="true" id="60bcae3d-5e9e-4bac-96bb-98e56566907f" name="Changes" comment="Кнопка удаления выполненных задач доступна только, если они есть">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/engine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,7 @@
       <workItem from="1673625700261" duration="5755000" />
       <workItem from="1673651005675" duration="5824000" />
       <workItem from="1673707645860" duration="1576000" />
-      <workItem from="1673883802589" duration="4661000" />
+      <workItem from="1673883802589" duration="6150000" />
     </task>
     <task id="LOCAL-00001" summary="Первые наброски">
       <created>1672083703082</created>
@@ -169,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673886837398</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Кнопка удаления выполненных задач доступна только, если они есть">
+      <created>1673890684454</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673890684454</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +206,7 @@
     <MESSAGE value="Состояние курсора на элементах" />
     <MESSAGE value="Устранен баг, связанный с прослушкой клика на списке тасков" />
     <MESSAGE value="Реализовано удаление выполненных задач" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализовано удаление выполненных задач" />
+    <MESSAGE value="Кнопка удаления выполненных задач доступна только, если они есть" />
+    <option name="LAST_COMMIT_MESSAGE" value="Кнопка удаления выполненных задач доступна только, если они есть" />
   </component>
 </project>
