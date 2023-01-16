@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60bcae3d-5e9e-4bac-96bb-98e56566907f" name="Changes" comment="Состояние курсора на элементах">
+    <list default="true" id="60bcae3d-5e9e-4bac-96bb-98e56566907f" name="Changes" comment="Устранен баг, связанный с прослушкой клика на списке тасков">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/engine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,18 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/frontend/projects/task_list_app",
-    "list.type.of.created.stylesheet": "CSS",
-    "settings.editor.selected.configurable": "preferences.sourceCode",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/frontend/projects/task_list_app&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\frontend\projects\task_list_app" />
@@ -80,7 +81,9 @@
       <workItem from="1673552053363" duration="2962000" />
       <workItem from="1673555697215" duration="86000" />
       <workItem from="1673625700261" duration="5755000" />
-      <workItem from="1673651005675" duration="4348000" />
+      <workItem from="1673651005675" duration="5824000" />
+      <workItem from="1673707645860" duration="1576000" />
+      <workItem from="1673883802589" duration="2954000" />
     </task>
     <task id="LOCAL-00001" summary="Первые наброски">
       <created>1672083703082</created>
@@ -152,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673704582831</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Устранен баг, связанный с прослушкой клика на списке тасков">
+      <created>1673705040954</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673705040954</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +190,7 @@
     <MESSAGE value="Пустой инпут не отправляется" />
     <MESSAGE value="Рефакторинг" />
     <MESSAGE value="Состояние курсора на элементах" />
-    <option name="LAST_COMMIT_MESSAGE" value="Состояние курсора на элементах" />
+    <MESSAGE value="Устранен баг, связанный с прослушкой клика на списке тасков" />
+    <option name="LAST_COMMIT_MESSAGE" value="Устранен баг, связанный с прослушкой клика на списке тасков" />
   </component>
 </project>

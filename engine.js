@@ -3,6 +3,7 @@
 const formAddTaskEl = document.querySelector('.form-add-task');
 const inputTaskNameEl = document.querySelector('#input-task-name');
 const taskListEl = document.querySelector('.task-list');
+const buttonDeleteDoneTasksEl = document.querySelector('#button-delete-done-tasks')
 
 /* Создаем массив с задачами */
 let taskListObj = [];
@@ -40,6 +41,7 @@ function renderTaskItemEl(taskItemObj) {
     // Вставляем в разметку
     taskListEl.insertAdjacentHTML('beforeend', taskHTML);
 }
+
 /* Пересчитать пункты задач на странице */
 function resetTasks() {
     let taskItemsEl = document.querySelectorAll('.task-item');
@@ -68,6 +70,27 @@ function resetTasks() {
         }
     }
 }
+
+/* Удалить выполненные задачи */
+buttonDeleteDoneTasksEl.onclick = () => {
+    taskListObj = taskListObj.filter (function (taskItemObj){
+        if (taskItemObj.done === false) {
+            return true
+        }
+    });
+    let taskItemsEl = document.querySelectorAll('.task-item');
+    let taskItemEl = document.querySelector('.task-item');
+    for (taskItemEl of taskItemsEl) {
+        taskItemEl.remove();
+    }
+    taskListObj.forEach(function (taskItemObj){
+        renderTaskItemEl(taskItemObj)
+    })
+}
+
+
+
+
 
 
 
