@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60bcae3d-5e9e-4bac-96bb-98e56566907f" name="Changes" comment="Адаптация верстки">
+    <list default="true" id="60bcae3d-5e9e-4bac-96bb-98e56566907f" name="Changes" comment="Удалил лишний файл">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/engine.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +84,7 @@
       <workItem from="1673707645860" duration="1576000" />
       <workItem from="1673883802589" duration="7551000" />
       <workItem from="1673893972671" duration="18000" />
-      <workItem from="1673893992566" duration="998000" />
+      <workItem from="1673893992566" duration="1570000" />
     </task>
     <task id="LOCAL-00001" summary="Первые наброски">
       <created>1672083703082</created>
@@ -197,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673894158189</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Удалил лишний файл">
+      <created>1673895323378</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1673895323378</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +239,7 @@
     <MESSAGE value="Появление и скрытие заглушки при пустом листе задач" />
     <MESSAGE value="Загрузка и выгрузка из Local Storage, рефакторинг JS" />
     <MESSAGE value="Адаптация верстки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Адаптация верстки" />
+    <MESSAGE value="Удалил лишний файл" />
+    <option name="LAST_COMMIT_MESSAGE" value="Удалил лишний файл" />
   </component>
 </project>

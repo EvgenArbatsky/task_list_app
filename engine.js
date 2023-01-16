@@ -109,6 +109,7 @@ buttonDeleteDoneTasksEl.onclick = () => {
     checkDoneTasks();
     checkTasksThereis();
     saveToLocalStorage();
+    resetTasks();
 }
 
 /* Кнопка удаления выполненных задач доступна только, если они есть */
